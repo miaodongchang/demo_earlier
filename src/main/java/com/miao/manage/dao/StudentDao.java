@@ -1,6 +1,7 @@
 package com.miao.manage.dao;
 
 import com.miao.manage.model.Student;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @author miaodc
  * @create 2017-07-28 11:31
  */
+@Component
 public interface StudentDao {
 
     /**

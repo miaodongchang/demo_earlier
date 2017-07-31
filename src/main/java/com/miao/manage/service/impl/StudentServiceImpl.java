@@ -20,7 +20,8 @@ public class StudentServiceImpl implements StudentService {
     private StudentDao studentDao;
 
     public List<Student> getList() {
-        return studentDao.getList();
+        List<Student> list = studentDao.getList();
+        return list;
     }
 
 }
