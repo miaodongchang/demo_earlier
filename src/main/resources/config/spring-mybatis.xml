@@ -47,6 +47,12 @@
                             <value>classpath:/mapper/**/*.xml</value>
                      </list>
               </property>
+              <!--配置后,sqlSessionFactory可分辨是那种数据库(用于PageSqlSessionService)-->
+              <property name="configurationProperties">
+                     <props>
+                            <prop key="dialect">oracle</prop>
+                     </props>
+              </property>
        </bean>
 
        <!--配置事务-->

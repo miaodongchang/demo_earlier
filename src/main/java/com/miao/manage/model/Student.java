@@ -1,15 +1,20 @@
 package com.miao.manage.model;
 
+import com.miao.manage.common.base.model.Entity;
+
 /**
  * 学生模型
  *
  * @author miaodc
  * @create 2017-07-28 11:33
  */
-public class Student {
-    Integer id;
-    String name;
-    Integer age;
+public class Student extends Entity{
+
+    private Integer id;
+
+    private String name;
+
+    private Integer age;
 
     public Integer getId() {
         return id;
